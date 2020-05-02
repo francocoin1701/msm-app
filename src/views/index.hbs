@@ -1,1 +1,15 @@
-<h1>hello world</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form action="/send-sms" method="POST" class="card card-body">
+            <div class="form-group">
+                <input type="text" name="body" class="form-control" placeholder="write your message" autofocus>
+            </div>
+            <div class="form-group">
+                <input type="tel" class="form-control" name="phone" placeholder="+52465452">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" >send</button>
+            </div>
+        </form>
+    </div>
+</div>
